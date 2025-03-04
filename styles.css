@@ -1,0 +1,207 @@
+body {
+  font-family: Apple Chancery, cursive;
+  background-color: hsl(136, 51%, 90%);
+}
+@media (max-width: 768px) {
+    header, footer {
+        padding: 0.5em 0;
+    }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 40px 0;
+}
+
+.navbar li {
+  margin: 0 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 15px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #3d7e4e;
+  border-radius: 15px;
+}
+
+#herb {
+  position: absolute;
+  top: 12px;
+  left: 30px;
+  right: 200px;
+  width: 180px;
+  height: auto;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 50px;
+  padding: 20px;
+}
+
+.photo {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3;
+}
+
+.photo img:hover {
+  transform: scale(1.25);
+}
+
+.Radovic {
+  display: flex;
+  padding: 70px;
+  width: 100%;
+}
+
+#rado {
+  border-radius: 40px;
+  box-shadow: 18px 18px 18px rgba(6, 6, 6, 0.885);
+  width: 190px;
+}
+
+#radotext {
+  text-align: center;
+}
+
+.saganowski {
+  display: flex;
+  padding: 70px;
+  width: 100%;
+}
+#marek {
+  border-radius: 40px;
+  box-shadow: 18px 18px 18px rgba(6, 6, 6, 0.885);
+  width: 250px;
+}
+#marektext {
+  text-align: center;
+}
+.kucharczyk {
+    display: flex;
+  padding: 70px;
+  width: 100%;
+}
+#kuchy{
+    border-radius: 40px;
+  box-shadow: 18px 18px 18px rgba(6, 6, 6, 0.885);
+  width: 250px;
+}
+#kuchytext {
+    text-align: center;
+  }
+
+  
+  #herblegia{
+    position: absolute;
+    top: 330px;
+    left: 300px;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 18px 18px 18px rgba(6, 6, 6, 0.885);
+    width: 550px;
+  }
+
+  .legia{
+    display: flex;
+  width: 100%;
+  }
+  .container{
+    display: grid;
+    gap: 400px;
+    padding: 100px ;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+  
+
+
+.polonia{
+    display: flex;
+    width: 100%;
+}
+#herbpolonia{
+    position: absolute;
+    top: 320px;
+    right: 430px;
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 18px 18px 18px rgba(6, 6, 6, 0.885);
+    width: 350px;
+}
+
+#legiatext{
+    position: absolute;
+    top:250px;
+    left: 450px;
+    font-size: 2.3rem;
+}
+
+#poloniatext{
+    position: absolute;
+    top:250px;
+    right: 450px;
+    font-size: 2.3rem;
+}
+#wyniktext{
+    position: absolute;
+    top:450px;
+    left:1060px;
+    font-size: 2.9rem;
+}
+#strzelcy{
+    position: absolute;
+    top:700px;
+    left:450px;
+    font-size: 1.5rem;
+    
+
+}
+
+#top3leg{
+    position: absolute;
+    top: 750px;
+    left: 530px;
+    font-size: 1.1rem;
+    
+}
+
+#top3pol{
+    position: absolute;
+    top: 750px;
+    right: 540px;
+    font-size: 1.1rem;
+    
+}
+#strzelcy2{
+    position: absolute;
+    top:700px;
+    right:480px;
+    font-size: 1.5rem;
+    
+ 
+}
